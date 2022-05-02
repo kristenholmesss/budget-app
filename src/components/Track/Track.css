@@ -1,0 +1,89 @@
+div#boxxing{
+    width: 360px;
+    height: 33vh;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    overflow: visible;
+    border-radius: 21px;
+    border: 0px double #222;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    
+  
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px auto;
+    margin-bottom: 20vh;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+#headddd{
+    margin: 0 auto;
+    width: 95%;
+    height: 20%;
+
+
+}
+
+#headddd h3{
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.4px;
+
+}
+
+.form-control{
+    width: 100%;
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    margin: 0 auto;
+}
+
+.form-control input{
+    height: 15px;
+    width: 300px;
+    background-color: "rgb(235, 235, 235)";
+    border: "rgba(0, 0, 0, 0)";
+    
+    border-radius: 8px;
+    border-width: 1px;
+    caret-color: "rgb(51, 51, 51)";
+    font-family: "Montserrat", serif;
+    text-Align:"left";
+    padding: 15px;
+    
+    
+}
+
+
+.form-control input:focus{
+    outline:#ff781f;
+    border-color: #ff781f;
+    border:1px solid #ff781f;
+
+}
+
+.btn{
+    width: 49%;
+    align-self: center;
+    margin: 10px auto;
+
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #ff8838;
+    
+    
+  border-radius: 8px;
+}
+

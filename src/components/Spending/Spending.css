@@ -1,0 +1,149 @@
+.spending {
+    max-width: 360px;
+    height: 74px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    overflow: visible;
+    border-radius: 21px;
+    border: 0px double #222;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px auto;
+    overflow-y: hidden;
+
+    max-height: 500px; /* approximate max height */
+
+	  transition-property: all;
+	  transition-duration: .5s;
+	  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  }
+
+  #content{
+
+      display: flex;
+      width: 100%;
+
+      justify-content: flex-start;
+      align-items: center;
+      margin: 5px;
+    
+      
+  }
+
+ a{
+    text-decoration: none;
+  }
+  
+  div#iconic{
+      max-width: 20%;
+
+      align-self: center;
+
+
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.25));
+    overflow: visible;
+    margin-right: 10px;
+
+  }
+
+  div#iconic >img{
+    max-width: 48px;
+
+
+}
+
+
+  #gpone{
+      width: 40%;
+
+      margin-left: 5px;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items:stretch ;
+
+  
+
+  }
+
+  #check{
+
+    width: auto; /* 77px */
+    height: 60%; /* 17px */
+    white-space: pre;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", serif;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+
+
+
+
+
+  }
+  #acct{
+    width: auto; /* 117px */
+    height: 40%; /* 12px */
+    white-space: pre;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Montserrat", serif;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0px;
+
+    margin-top: -15px;
+
+  }
+
+  #dolla{
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+  #avmon{
+
+      
+      word-break: break-word;
+      font-weight: 700;
+        font-style: normal;
+        font-family: "Montserrat", serif;
+        color: #000000;
+        font-size: 23px;
+        letter-spacing: 0px;
+        line-height: 1.2;
+
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-right: 10px;
+  }
+
+  #subtecc{
+      margin-top: 0;
+      
+
+      margin-right: 10px;
+
+
+    width: auto; /* 87px */
+    height: auto; /* 12px */
+    white-space: pre;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Montserrat", serif;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+  }

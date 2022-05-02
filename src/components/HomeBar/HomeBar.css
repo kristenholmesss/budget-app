@@ -1,0 +1,34 @@
+
+div#bat{
+
+    width: 100%;
+    height: 55px;
+    box-shadow: -2px -2px 1px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+    align-self: flex-end;
+    bottom: 0;
+
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+
+}
+
+#barimg{
+    max-width: 37px;
+   
+}
+
+
+
+#bat ul{
+    list-style-type: none;
+}
+
+#bats{
+    width: 360px;
+}

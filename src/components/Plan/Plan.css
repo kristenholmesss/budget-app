@@ -1,0 +1,46 @@
+#profll{
+    width: 360px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+
+  background-color: #fff;
+  overflow: visible;
+  border-radius: 21px;
+  border: 0px double #222;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  
+
+  justify-content: flex-end;
+  align-items: center;
+
+
+
+}
+
+#headdding{
+    width: 100%;
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+
+#finpln{
+    width: 100%;
+    list-style: none;
+    justify-self: f;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+}
+
+#needs{
+
+    width: 100%;
+}

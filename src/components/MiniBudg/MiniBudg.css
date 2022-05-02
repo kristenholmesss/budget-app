@@ -1,0 +1,21 @@
+.spend {
+    width: 360px;
+    height: 74px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    overflow: visible;
+    border-radius: 21px;
+    border: 0px double #222;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px auto;
+    overflow-y: hidden;
+
+    max-height: 500px; /* approximate max height */
+
+	  transition-property: all;
+	  transition-duration: .5s;
+	  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  }
