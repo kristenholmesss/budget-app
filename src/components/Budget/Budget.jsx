@@ -2,7 +2,6 @@
 import React, { useState, useContext} from 'react';
 import './Budget.css';
 import profileimg from '../../imgs/prof.png';
-import { PieChart } from 'react-minimal-pie-chart';
 import { Pie } from './Pie';
 
 export const Budget = () => {
